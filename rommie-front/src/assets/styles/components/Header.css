@@ -1,0 +1,26 @@
+.header {
+  display: flex; /* 플렉스 레이아웃으로 변경 */
+  justify-content: space-between; /* 좌우 공간 균등 분배 */
+  align-items: center; /* 수직 중앙 정렬 */
+  height: 60px;
+  background: linear-gradient(90deg, #008dda 0%, #41c9e2 50%, #ace2e1 75%, #f7eedd 100%);
+  padding: 0 30px; /* 좌우 패딩 추가 */
+}
+
+.header-left {
+  font-style: italic;
+  font-size: 15px;
+  color: white;
+}
+
+.header-center {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 24px;
+  color: white;
+}
+
+.header-right {
+  font-size: 13px;
+  color: 1C3879;
+}
