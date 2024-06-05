@@ -1,0 +1,44 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  background-color: #f4f4f4;
+  padding: 0 10px;
+  position: relative; /* 부모 요소를 상대적 위치로 설정 */
+}
+
+.nav-item-home {
+  font-size: 18px;
+  margin-right: 15px; /* 오른쪽 여백 설정 */
+  position: absolute;
+  left: 150px; /* 첫 번째 항목 위치에서 150px 오른쪽으로 이동 */
+}
+
+.nav-item-mypage {
+  font-size: 18px;
+  margin-left: 15px;
+  position: absolute;
+  left: 180px;
+}
+
+.nav-item-myinfo {
+  font-size: 18px;
+  margin-left: 15px;
+  position: absolute;
+  left: 350px;
+}
+
+.nav-separator1 {
+  font-size: 18px;
+  color: black;
+  position: absolute;
+  left: 180px;
+}
+
+.nav-separator2 {
+  font-size: 18px;
+  color: black;
+  position: absolute;
+  left: 350px;
+}
