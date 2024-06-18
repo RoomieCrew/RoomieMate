@@ -1,0 +1,60 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.input-group {
+  margin-top: 50px;
+}
+
+.input-table {
+  width: 100%; /* 부모 요소(container)의 전체 너비를 차지하도록 설정 */
+  margin: 0 auto; /* 가로로 가운데 정렬 */
+  display: table; /* 테이블처럼 동작하도록 설정 */
+  border-collapse: collapse;
+  border-top: solid #0c2d57;
+}
+
+.input-row {
+  display: table-row; /* 각 tr 요소가 테이블 행처럼 동작하도록 설정 */
+  border-bottom: solid #c9c9c9;
+}
+
+.input-label {
+  display: table-cell; /* 각 td 요소가 테이블 셀처럼 동작하도록 설정 */
+  padding: 10px;
+  background-color: #f8f8f8;
+}
+
+.input-value {
+  display: table-cell; /* 각 td 요소가 테이블 셀처럼 동작하도록 설정 */
+  padding: 10px 20px;
+  text-align: left;
+}
+
+.input-field {
+  width: calc(100% - 50px);
+  padding: 5px 10px;
+  margin: 7px 0;
+  border-radius: 5px;
+  border: 1px solid #c9c9c9;
+}
+
+.button-group {
+  margin-top: 50px;
+}
+
+.confirm-button {
+  width: 220px;
+  height: 45px;
+  margin: 0 10px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  color: white;
+  background-color: #008dda;
+}
